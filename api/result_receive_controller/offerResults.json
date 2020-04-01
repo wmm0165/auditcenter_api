@@ -1,0 +1,15 @@
+{
+    "name": "offerResults",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditresult",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

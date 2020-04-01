@@ -1,0 +1,23 @@
+{
+    "name": "drugCategory",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/drugCategory",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "pCode": "string",
+            "keyword": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

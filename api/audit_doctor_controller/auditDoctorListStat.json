@@ -1,0 +1,22 @@
+{
+    "name": "auditDoctorListStat",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditDoctorListStat",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "keyword": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

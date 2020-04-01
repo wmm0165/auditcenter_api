@@ -1,0 +1,22 @@
+{
+    "name": "设置",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditPlanSetting",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "ids": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

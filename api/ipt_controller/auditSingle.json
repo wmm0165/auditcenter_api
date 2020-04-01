@@ -1,0 +1,23 @@
+{
+    "name": "auditSingle",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/auditSingle",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditWay": "integer",
+            "groupOrderList": "array"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

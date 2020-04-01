@@ -1,0 +1,39 @@
+{
+    "name": "saveCheckResult",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/ipt/saveCheckResult",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "areaId": "string",
+            "areaName": "string",
+            "checkOpinion": "string",
+            "checkPeopleId": "string",
+            "checkPeopleName": "string",
+            "checkResult": "integer",
+            "deptId": "string",
+            "deptName": "string",
+            "engineId": "integer",
+            "groupNo": "string",
+            "id": "integer",
+            "patientId": "string",
+            "patientName": "string",
+            "pharmacistId": "string",
+            "pharmacistName": "string",
+            "projectId": "integer",
+            "reportType": "integer",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

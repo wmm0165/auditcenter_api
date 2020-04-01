@@ -1,0 +1,23 @@
+{
+    "name": "patientCondtionList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/patientCondtionList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "zoneId": "int32",
+            "patientCondition": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "name": "unlockDistributeTask",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/unlockDistributeTask",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64",
+            "auditType": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

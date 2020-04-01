@@ -1,0 +1,22 @@
+{
+    "name": "childDrugProperty",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/childDrugProperty",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "parentId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

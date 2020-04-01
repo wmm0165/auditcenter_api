@@ -1,0 +1,24 @@
+{
+    "name": "diagnoseList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/diagnoseList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64",
+            "startDate": "int64",
+            "period": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

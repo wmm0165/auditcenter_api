@@ -1,0 +1,19 @@
+{
+    "name": "cancelName",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/config/cancelName",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "releaseAuditing",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/releaseAuditing",
+        "method": "PUT",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

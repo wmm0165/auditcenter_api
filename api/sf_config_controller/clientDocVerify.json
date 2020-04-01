@@ -1,0 +1,19 @@
+{
+    "name": "clientDocVerify",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/config/clientDocVerify",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

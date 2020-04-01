@@ -1,0 +1,17 @@
+{
+    "name": "docOperationResult",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/docHandleResult",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "result": "array"
+    }
+}

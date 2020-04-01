@@ -1,0 +1,30 @@
+{
+    "name": "修改",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/collect/tag/$id",
+        "method": "PUT",
+        "headers": {},
+        "json": {
+            "createdTime": "string",
+            "defaultFlag": "integer",
+            "id": "integer",
+            "modifiedTime": "string",
+            "pharmacistId": "string",
+            "pharmacistName": "string",
+            "pharmacistRealname": "string",
+            "tag": "string",
+            "tagPy": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

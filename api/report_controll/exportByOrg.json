@@ -1,0 +1,38 @@
+{
+    "name": "exportByOrg",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/sfReport/exportAuditWork",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "analysisResultType": "string",
+            "analysisType": "string",
+            "currentPage": "integer",
+            "endTime": "integer",
+            "exportType": "integer",
+            "groupField": "string",
+            "order": "string",
+            "orderField": "string",
+            "pageSize": "integer",
+            "pharNameList": "array",
+            "source": "string",
+            "startTime": "integer",
+            "zoneIdAndDoctorsList": "array",
+            "zoneIdAndGroupsList": "array",
+            "zoneIdList": "array",
+            "zonedIdAndDeptsList": "array",
+            "zonedIdAndWardsList": "array"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "addReplyTemplate",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/addReplyTemplate",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "replyTemplate": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

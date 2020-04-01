@@ -1,0 +1,29 @@
+{
+    "name": "getSysConfigMeddleLevel",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/systemcenter/config/warning",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "meddleLevel": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "allDeptSelected": "boolean",
+        "allDictionaryDataSelected": "boolean",
+        "button1": "string",
+        "button2": "string",
+        "deptList": "array",
+        "deptTypeAndZoneId": "object",
+        "dictionary": "object",
+        "messageLevels": "array",
+        "messageStatus": "string",
+        "popUp": "boolean"
+    }
+}

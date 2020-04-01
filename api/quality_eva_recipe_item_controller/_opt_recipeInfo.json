@@ -1,0 +1,19 @@
+{
+    "name": "_opt_recipeInfo",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/opt/recipeInfo/$optRecipeId",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "examTrendChart",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/examTrendChart",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "eventNo": "string",
+            "examItemCode": "string",
+            "indicatorCode": "string",
+            "recipeTime": "integer",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

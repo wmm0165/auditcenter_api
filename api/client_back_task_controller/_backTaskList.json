@@ -1,0 +1,32 @@
+{
+    "name": "_backTaskList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/reject/backTaskList",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "currentId": "string",
+            "deptId": "string",
+            "groupId": "string",
+            "inPatientArea": "string",
+            "limit": "integer",
+            "nameOrBedno": "string",
+            "organizationCode": "string",
+            "status": "integer",
+            "userId": "string",
+            "userName": "string",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

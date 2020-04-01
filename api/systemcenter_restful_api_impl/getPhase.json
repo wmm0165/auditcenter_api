@@ -1,0 +1,15 @@
+{
+    "name": "getPhase",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/systemcenter/config/phase",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

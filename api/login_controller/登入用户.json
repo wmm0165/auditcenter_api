@@ -1,0 +1,19 @@
+{
+    "name": "登入用户",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/currentUser",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

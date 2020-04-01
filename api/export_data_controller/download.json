@@ -1,0 +1,19 @@
+{
+    "name": "download",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/download",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "taskId": "string",
+            "fileUrl": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

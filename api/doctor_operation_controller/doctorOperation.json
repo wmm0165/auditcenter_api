@@ -1,0 +1,37 @@
+{
+    "name": "doctorOperation",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/doctorOperation",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "docId": "string",
+            "docName": "string",
+            "eventNo": "string",
+            "groupNo": "string",
+            "isHerb": "string",
+            "kfDocId": "string",
+            "message": "string",
+            "orderList": "array",
+            "password": "string",
+            "patientId": "string",
+            "recipeId": "string",
+            "source": "integer",
+            "status": "string",
+            "taskId": "integer",
+            "verifyFlag": "string",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "group",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/all/group",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "engineId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

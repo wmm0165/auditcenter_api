@@ -1,0 +1,23 @@
+{
+    "name": "获取标准产品id",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/sys/tbProductId",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "productId": "string",
+            "zoneId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

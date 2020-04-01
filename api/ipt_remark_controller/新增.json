@@ -1,0 +1,29 @@
+{
+    "name": "新增",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/remark/addIptRemark",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditDocId": "string",
+            "auditDocName": "string",
+            "engineId": "integer",
+            "groupNo": "string",
+            "herbMedicalIds": "array",
+            "id": "integer",
+            "medicalIds": "array",
+            "remarkContent": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

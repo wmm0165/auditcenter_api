@@ -1,0 +1,24 @@
+{
+    "name": "复核项目列表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/checkProjectList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "projectName": "string",
+            "currentPage": "int32",
+            "pageSize": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

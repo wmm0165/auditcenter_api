@@ -1,0 +1,78 @@
+{
+  "查询门诊科室-全部": {
+    "name": "deptForReport" ,
+    "variables": {} ,
+    "request": {
+      "url": "/api/v1/deptForReport" ,
+      "method": "GET" ,
+      "headers": {} ,
+      "params": {
+        "type": 1 ,
+        "keyword": ""
+      }
+    } ,
+    "validate": [
+      {
+        "eq": []
+      }
+    ] ,
+    "status_code": 200
+  } ,
+  "查询门诊科室-门诊": {
+    "name": "deptForReport" ,
+    "variables": {} ,
+    "request": {
+      "url": "/api/v1/deptForReport" ,
+      "method": "GET" ,
+      "headers": {} ,
+      "params": {
+        "type": 1 ,
+        "keyword": "门诊"
+      }
+    } ,
+    "validate": [
+      {
+        "eq": []
+      }
+    ] ,
+    "status_code": 200
+  } ,
+  "查询住院科室-全部": {
+    "name": "deptForReport" ,
+    "variables": {} ,
+    "request": {
+      "url": "/api/v1/deptForReport" ,
+      "method": "GET" ,
+      "headers": {} ,
+      "params": {
+        "type": 2 ,
+        "keyword": ""
+      }
+    } ,
+    "validate": [
+      {
+        "eq": []
+      }
+    ] ,
+    "status_code": 200
+  } ,
+  "查询住院科室-住院": {
+    "name": "deptForReport" ,
+    "variables": {} ,
+    "request": {
+      "url": "/api/v1/deptForReport" ,
+      "method": "GET" ,
+      "headers": {} ,
+      "params": {
+        "type": 2 ,
+        "keyword": "住院"
+      }
+    } ,
+    "validate": [
+      {
+        "eq": []
+      }
+    ] ,
+    "status_code": 200
+  }
+}

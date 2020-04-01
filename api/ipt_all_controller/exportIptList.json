@@ -1,0 +1,45 @@
+{
+    "name": "exportIptList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/all/exportIptList",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "antibacterialsFlag": "integer",
+            "auditDocId": "string",
+            "collectCondition": null,
+            "currentPage": "integer",
+            "deptId": "array",
+            "drugCondition": null,
+            "endTime": "integer",
+            "eventNo": "string",
+            "groupNo": "string",
+            "groupNoCondition": null,
+            "highriskFlag": "integer",
+            "injectableFlag": "integer",
+            "orderStatus": "string",
+            "orderType": "integer",
+            "pageSize": "integer",
+            "patientId": "string",
+            "recipeNo": "string",
+            "recipeStatus": "string",
+            "start": "integer",
+            "startTime": "integer",
+            "wardId": "array",
+            "zoneId": "array",
+            "zoneIdWard": "array",
+            "zonesAndDoctorsQuery": null
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

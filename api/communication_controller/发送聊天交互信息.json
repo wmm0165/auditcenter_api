@@ -1,0 +1,30 @@
+{
+    "name": "发送聊天交互信息",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/sendChatMessageNoLogin",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "attachKey": "string",
+            "attachSecondKey": "string",
+            "category": "integer",
+            "hospitalCode": "string",
+            "message": "string",
+            "source": "string",
+            "userId": "string",
+            "userRole": "string",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

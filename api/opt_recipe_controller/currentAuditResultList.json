@@ -1,0 +1,23 @@
+{
+    "name": "currentAuditResultList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/currentAuditResult",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64",
+            "recipeId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

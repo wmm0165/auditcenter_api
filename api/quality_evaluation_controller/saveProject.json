@@ -1,0 +1,36 @@
+{
+    "name": "saveProject",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/saveProject",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditIdList": "array",
+            "endTime": "integer",
+            "hisProductId": "string",
+            "hisProductName": "string",
+            "projectId": "integer",
+            "randomNum": "integer",
+            "resultPercentage": "number",
+            "source": "integer",
+            "startTime": "integer",
+            "type": "integer",
+            "userName": "string",
+            "userRealName": "string"
+        },
+        "params": {
+            "projectName": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

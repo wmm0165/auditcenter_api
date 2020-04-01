@@ -1,0 +1,28 @@
+{
+    "name": "productList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/productList",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "currentPage": "integer",
+            "form": "string",
+            "manufacturer": "string",
+            "pageSize": "integer",
+            "productName": "string",
+            "spec": "string",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

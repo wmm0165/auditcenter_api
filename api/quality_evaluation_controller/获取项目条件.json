@@ -1,0 +1,19 @@
+{
+    "name": "获取项目条件",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/getCheckResultQuery",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "deleteReplyTemplate",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/deleteReplyTemplate/$replyTemplateId",
+        "method": "DELETE",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

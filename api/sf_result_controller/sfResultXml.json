@@ -1,0 +1,27 @@
+{
+    "name": "sfResultXml",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/sfResultXml",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "downTime": "integer",
+            "endTime": "string",
+            "eventNo": "string",
+            "groupNo": "string",
+            "interval": "integer",
+            "patientId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

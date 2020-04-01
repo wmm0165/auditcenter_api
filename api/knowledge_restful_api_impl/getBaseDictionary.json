@@ -1,0 +1,31 @@
+{
+    "name": "getBaseDictionary",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/knowledge/baseDictionary",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "zoneId": "int64",
+            "category": "string",
+            "code": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "compared": "boolean",
+        "hisCategory": "string",
+        "hisCode": "string",
+        "hisValue": "string",
+        "id": "integer",
+        "isIgnore": "boolean",
+        "sysCategory": "string",
+        "sysCode": "string",
+        "sysValue": "string",
+        "zoneId": "integer"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "getBaseProduct",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/knowledge/dictionary",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "category": "string",
+            "code": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "categoryCode": "string",
+        "code": "string",
+        "pcode": "string",
+        "value": "string"
+    }
+}

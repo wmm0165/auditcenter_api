@@ -1,0 +1,30 @@
+{
+    "name": "新增",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/collect/addTag",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "createdTime": "string",
+            "defaultFlag": "integer",
+            "id": "integer",
+            "modifiedTime": "string",
+            "pharmacistId": "string",
+            "pharmacistName": "string",
+            "pharmacistRealname": "string",
+            "tag": "string",
+            "tagPy": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "name": "getProductById",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/knowledge/product",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "productId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "commodityName": "string",
+        "ddd": null,
+        "doses": "object",
+        "drugCodes": "array",
+        "drugName": "string",
+        "enabled": "boolean",
+        "excipients": "object",
+        "formulation": "string",
+        "id": "string",
+        "ingredients": "object",
+        "ion": "object",
+        "manufactureName": "string",
+        "pharmacologyCategory": "string",
+        "pinyin": "string",
+        "productNameInChinese": "string",
+        "productNameInEnglish": "string",
+        "properties": "array",
+        "remark": "string",
+        "specification": "string",
+        "specificationTransition": null,
+        "standardFormulation": "string",
+        "status": "integer",
+        "tpn": null
+    }
+}

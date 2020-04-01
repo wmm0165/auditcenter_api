@@ -1,0 +1,19 @@
+{
+    "name": "getAlreadyCheckNum",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/ipt/getAlreadyCheckNum",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

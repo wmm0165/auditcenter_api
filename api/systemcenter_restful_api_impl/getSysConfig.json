@@ -1,0 +1,19 @@
+{
+    "name": "getSysConfig",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/systemcenter/config/value",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "systemCode": "string",
+            "cfgName": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

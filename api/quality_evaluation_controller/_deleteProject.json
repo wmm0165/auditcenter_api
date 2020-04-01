@@ -1,0 +1,23 @@
+{
+    "name": "_deleteProject",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/deleteProject",
+        "method": "DELETE",
+        "headers": {},
+        "params": {
+            "projectId": "int64",
+            "source": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

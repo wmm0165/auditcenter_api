@@ -1,0 +1,22 @@
+{
+    "name": "couldAuditAgain",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/all/couldAuditAgain",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "optRecipeId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

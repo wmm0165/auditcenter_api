@@ -1,0 +1,23 @@
+{
+    "name": "auditing",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditing",
+        "method": "PUT",
+        "headers": {},
+        "params": {
+            "ids": "string",
+            "source": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "caculateHeight",
+    "variables": {},
+    "request": {
+        "api": "/api/formula/height",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "age": "string",
+            "sex": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

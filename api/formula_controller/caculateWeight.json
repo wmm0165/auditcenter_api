@@ -1,0 +1,19 @@
+{
+    "name": "caculateWeight",
+    "variables": {},
+    "request": {
+        "api": "/api/formula/weight",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "age": "string",
+            "sex": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

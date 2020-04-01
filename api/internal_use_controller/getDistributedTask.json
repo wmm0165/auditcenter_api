@@ -1,0 +1,22 @@
+{
+    "name": "getDistributedTask",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/help/task/$taskId",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "type": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

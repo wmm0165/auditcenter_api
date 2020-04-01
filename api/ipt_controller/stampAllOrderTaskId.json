@@ -1,0 +1,18 @@
+{
+    "name": "stampAllOrderTaskId",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/stampAllOrderTaskId",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "taskId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

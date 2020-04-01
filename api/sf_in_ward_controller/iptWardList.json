@@ -1,0 +1,25 @@
+{
+    "name": "iptWardList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/iptWardList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "zoneId": "int32",
+            "inWardId": "string",
+            "inWardName": "string",
+            "keyword": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

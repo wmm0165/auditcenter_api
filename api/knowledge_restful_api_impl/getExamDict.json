@@ -1,0 +1,36 @@
+{
+    "name": "getExamDict",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/knowledge/exam",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "zoneId": "int64",
+            "indicatorName": "string",
+            "sampleName": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "adultFormula": "integer",
+        "dictCode": "string",
+        "dictValue": "string",
+        "expired": "integer",
+        "indicatrixUnit": "string",
+        "indicatrixVal": "string",
+        "isDel": "boolean",
+        "maxRef": "number",
+        "minRef": "number",
+        "minorFormula": "integer",
+        "owner": "integer",
+        "refRangeType": "integer",
+        "refVal": "string",
+        "remark": "string",
+        "unormalVal": "string"
+    }
+}

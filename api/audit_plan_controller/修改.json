@@ -1,0 +1,52 @@
+{
+    "name": "修改",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditPlan/$id",
+        "method": "PUT",
+        "headers": {},
+        "json": {
+            "ageUnit": "string",
+            "category": "integer",
+            "costTypes": "string",
+            "createdTime": "string",
+            "deptList": "array",
+            "diagnoses": "string",
+            "displayInfoList": "array",
+            "doctorList": "array",
+            "drugCategorys": "string",
+            "drugProperties": "string",
+            "effectWeek": "string",
+            "endTime": "string",
+            "groupList": "array",
+            "icd10": "string",
+            "id": "integer",
+            "infoList": "array",
+            "iptWardList": "array",
+            "isOuvas": "integer",
+            "isPivas": "integer",
+            "maxAge": "integer",
+            "maxStay": "integer",
+            "minAge": "integer",
+            "minStay": "integer",
+            "modifiedTime": "string",
+            "name": "string",
+            "patientCondition": "string",
+            "recipeSource": "integer",
+            "startTime": "string",
+            "userId": "string",
+            "userName": "string",
+            "weekList": "array"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

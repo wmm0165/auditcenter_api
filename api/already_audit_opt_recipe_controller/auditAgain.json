@@ -1,0 +1,27 @@
+{
+    "name": "auditAgain",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/all/auditAgain",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditResult": "string",
+            "auditStatus": "integer",
+            "optRecipeId": "integer",
+            "recipeId": "string",
+            "status": "integer",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

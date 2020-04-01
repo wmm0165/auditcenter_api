@@ -1,0 +1,19 @@
+{
+    "name": "查看提醒信息",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/overtimeUnRemind/checkRemindInfo",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "方案列表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditPlanList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "str": "string",
+            "currentPage": "int32",
+            "pageSize": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

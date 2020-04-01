@@ -1,0 +1,26 @@
+{
+    "name": "查看处方列表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/opt/getCheckResultList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "projectId": "int64",
+            "currentPage": "int32",
+            "pageSize": "int32",
+            "checkStatus": "int32",
+            "hisProductId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "latestBackTask",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/reject/latestBackTask",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "inPatientArea": "string",
+            "userId": "string",
+            "deptId": "string",
+            "organizationCode": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

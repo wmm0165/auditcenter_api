@@ -1,0 +1,22 @@
+{
+    "name": "checkIptOrderData",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/ipt/checkIptOrderData",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

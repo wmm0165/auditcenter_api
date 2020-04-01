@@ -1,0 +1,19 @@
+{
+    "name": "getInstruction",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/getInsttips",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "_judgeSelfOperation",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/judgeSelfOperation",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "projectId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

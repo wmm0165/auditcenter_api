@@ -1,0 +1,24 @@
+{
+    "name": "药师权限方案列表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/authPharmacistList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "name": "string",
+            "currentPage": "int32",
+            "pageSize": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

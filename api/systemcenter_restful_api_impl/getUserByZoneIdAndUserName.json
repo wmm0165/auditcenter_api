@@ -1,0 +1,46 @@
+{
+    "name": "getUserByZoneIdAndUserName",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/systemcenter/user/name",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "zoneId": "int64",
+            "userName": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "age": "integer",
+        "company": "string",
+        "createTime": "string",
+        "createUserId": "integer",
+        "datareportUser": "integer",
+        "email": "string",
+        "endTime": "string",
+        "lastLoginTime": "string",
+        "officeQualification": "string",
+        "password": "string",
+        "phone": "string",
+        "py": "string",
+        "realname": "string",
+        "remark": "string",
+        "sex": "boolean",
+        "state": "boolean",
+        "title": "string",
+        "uid": "integer",
+        "updateTime": "string",
+        "updateUserId": "integer",
+        "userType": "integer",
+        "userdesc": "string",
+        "username": "string",
+        "worknum": "string",
+        "zoneId": "integer",
+        "zoneName": "string"
+    }
+}

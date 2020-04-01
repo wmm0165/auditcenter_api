@@ -1,0 +1,25 @@
+{
+    "name": "vitalSignList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/vitalSignList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64",
+            "startDate": "int64",
+            "eventNo": "string",
+            "period": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

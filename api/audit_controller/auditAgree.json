@@ -1,0 +1,24 @@
+{
+    "name": "auditAgree",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditAgree",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64",
+            "auditType": "int32",
+            "auditWay": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "name": "getCheckResult",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/ipt/getCheckResult",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "projectId": "int64",
+            "engineId": "int64",
+            "groupNo": "string",
+            "userId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

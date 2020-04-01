@@ -1,0 +1,28 @@
+{
+    "name": "detailPageAuditRefuse",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/detailPageAuditRefuse",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditResult": "string",
+            "messageStatus": "integer",
+            "operationRecordList": "array",
+            "optRecipeId": "string"
+        },
+        "params": {
+            "auditWay": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

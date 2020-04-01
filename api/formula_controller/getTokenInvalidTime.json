@@ -1,0 +1,18 @@
+{
+    "name": "getTokenInvalidTime",
+    "variables": {},
+    "request": {
+        "api": "/api/formula/token",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "state": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

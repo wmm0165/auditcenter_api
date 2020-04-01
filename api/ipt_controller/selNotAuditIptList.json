@@ -1,0 +1,34 @@
+{
+    "name": "selNotAuditIptList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/selNotAuditIptList",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "deptId": "string",
+            "doctorName": "string",
+            "orderType": "array",
+            "page": "integer",
+            "pageSize": "integer",
+            "patientId": "string",
+            "recipeNo": "string",
+            "start": "integer",
+            "userId": "string",
+            "wardId": "string",
+            "zoneId": "integer",
+            "zoneIdAndDepts": "array",
+            "zoneIdAndWards": "array"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

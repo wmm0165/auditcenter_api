@@ -1,0 +1,19 @@
+{
+    "name": "doubleSignName",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/config/doubleSignName",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

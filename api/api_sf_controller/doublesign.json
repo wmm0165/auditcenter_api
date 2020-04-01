@@ -1,0 +1,19 @@
+{
+    "name": "doublesign",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/doublesign",
+        "method": "POST",
+        "headers": {},
+        "params": {
+            "charset": "string",
+            "validateXml": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

@@ -1,0 +1,25 @@
+{
+    "name": "orderList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/all/orderList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64",
+            "startDate": "int64",
+            "period": "int32",
+            "groupNo": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "object",
+        "message": "string"
+    }
+}

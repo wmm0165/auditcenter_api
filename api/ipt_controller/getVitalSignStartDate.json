@@ -1,0 +1,22 @@
+{
+    "name": "getVitalSignStartDate",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/getVitalSignStartDate",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

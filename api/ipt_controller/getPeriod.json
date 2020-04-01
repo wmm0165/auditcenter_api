@@ -1,0 +1,19 @@
+{
+    "name": "getPeriod",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/getPeriod",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

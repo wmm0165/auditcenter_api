@@ -1,0 +1,19 @@
+{
+    "name": "caculateAge",
+    "variables": {},
+    "request": {
+        "api": "/api/formula/age",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "birthday": "string",
+            "serviceTime": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

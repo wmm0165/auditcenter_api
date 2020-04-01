@@ -1,0 +1,19 @@
+{
+    "name": "searchIptCondition",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/searchIptCondition",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "testChildrenDept",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/test/testChildrenDept",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "parentId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

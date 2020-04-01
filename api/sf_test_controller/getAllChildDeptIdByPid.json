@@ -1,0 +1,22 @@
+{
+    "name": "getAllChildDeptIdByPid",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/test/getAllChildDeptIdByPid",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "parentId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

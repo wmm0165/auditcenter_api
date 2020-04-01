@@ -1,0 +1,33 @@
+{
+    "name": "engineMsgList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/engineMsgList",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditWay": "integer",
+            "dbType": "string",
+            "engineId": "integer",
+            "eventNo": "string",
+            "groupNo": "string",
+            "herbMedicalHisIds": "array",
+            "herbMedicalIds": "array",
+            "medicalHisIds": "array",
+            "medicalIds": "array",
+            "patientId": "string",
+            "userId": "string",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

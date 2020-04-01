@@ -1,0 +1,24 @@
+{
+    "name": "查看项目报表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/getReportList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "projectId": "int64",
+            "currentPage": "int32",
+            "pageSize": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "name": "doctorInZone",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/doctorInZone",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "zoneId": "int64",
+            "deptId": "string",
+            "keyword": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

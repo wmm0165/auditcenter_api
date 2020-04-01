@@ -1,0 +1,19 @@
+{
+    "name": "optRecipeSpecialExamList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/optRecipeSpecialExamList/$optRecipeId",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

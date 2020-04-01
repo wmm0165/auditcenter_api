@@ -1,0 +1,19 @@
+{
+    "name": "获取登陆用户对应的菜单",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/resource",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

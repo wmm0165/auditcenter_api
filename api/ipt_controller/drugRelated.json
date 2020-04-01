@@ -1,0 +1,25 @@
+{
+    "name": "drugRelated",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/drugRelated",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "engineId": "int64",
+            "productId": "string",
+            "zoneId": "int32",
+            "orderTime": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

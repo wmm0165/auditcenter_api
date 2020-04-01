@@ -1,0 +1,24 @@
+{
+    "name": "batchPending",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/batchPending",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditType": "integer",
+            "auditWay": "integer",
+            "ids": "array"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

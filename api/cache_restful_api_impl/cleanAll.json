@@ -1,0 +1,15 @@
+{
+    "name": "cleanAll",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/clean",
+        "method": "POST",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

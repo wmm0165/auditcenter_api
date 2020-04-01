@@ -1,0 +1,22 @@
+{
+    "name": "aroundAuditResultId",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/all/aroundAuditResultId",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

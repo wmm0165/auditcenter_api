@@ -1,0 +1,19 @@
+{
+    "name": "receiveResult",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/resultReceive",
+        "method": "POST",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

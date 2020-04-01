@@ -1,0 +1,23 @@
+{
+    "name": "_getIptBackTaskDetail",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/reject/getIptBackTaskDetail",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "engineId": "int64",
+            "groupNo": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

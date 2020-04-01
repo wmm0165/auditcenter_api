@@ -1,0 +1,25 @@
+{
+    "name": "getOperation",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/opt/getOperation",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64",
+            "projectId": "int64",
+            "recipeId": "int64",
+            "userId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

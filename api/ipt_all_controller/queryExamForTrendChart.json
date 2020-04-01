@@ -1,0 +1,27 @@
+{
+    "name": "queryExamForTrendChart",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/all/queryExamForTrendChart",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "eventNo": "string",
+            "examItemCode": "string",
+            "indicatorCode": "string",
+            "orderTime": "integer",
+            "sampleCode": "string",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

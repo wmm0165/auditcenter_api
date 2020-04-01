@@ -1,0 +1,19 @@
+{
+    "name": "忽略提醒",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/overtimeUnRemind/ignoreRemind",
+        "method": "PUT",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "object",
+        "message": "string"
+    }
+}

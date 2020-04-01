@@ -1,0 +1,26 @@
+{
+    "name": "获取该业务对应的聊天记录，该接口不需要登陆也能访问",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/queryChatMessageNoLogin",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "hospitalCode": "string",
+            "userId": "string",
+            "source": "string",
+            "attachKey": "string",
+            "attachSecondKey": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

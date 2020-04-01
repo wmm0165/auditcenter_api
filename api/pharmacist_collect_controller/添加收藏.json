@@ -1,0 +1,29 @@
+{
+    "name": "添加收藏",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/collect/addCollect",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "collectPeopleId": "integer",
+            "collectType": "integer",
+            "engineId": "integer",
+            "groupNo": "string",
+            "herbMedicalIds": "array",
+            "medicalIds": "array",
+            "optRecipeId": "integer",
+            "tagId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

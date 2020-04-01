@@ -1,0 +1,19 @@
+{
+    "name": "optElectronicMedical",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/all/optRecipeElectronicMedical/$optRecipeId",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

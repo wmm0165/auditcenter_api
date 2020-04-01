@@ -1,0 +1,19 @@
+{
+    "name": "auditBeating",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditBeating",
+        "method": "PUT",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

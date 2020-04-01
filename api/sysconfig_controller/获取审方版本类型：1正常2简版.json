@@ -1,0 +1,19 @@
+{
+    "name": "获取审方版本类型：1正常2简版",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/sys/getSfVersionType",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

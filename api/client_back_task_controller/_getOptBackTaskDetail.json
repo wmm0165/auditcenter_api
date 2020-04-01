@@ -1,0 +1,22 @@
+{
+    "name": "_getOptBackTaskDetail",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/reject/getOptBackTaskDetail",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "optRecipeId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

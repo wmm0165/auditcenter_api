@@ -1,0 +1,24 @@
+{
+    "name": "auditBatchAgree",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditBatchAgree",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditType": "integer",
+            "auditWay": "integer",
+            "ids": "array"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "新增",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/remark/addOptRemark",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditDocId": "string",
+            "auditDocName": "string",
+            "id": "integer",
+            "recipeId": "string",
+            "remarkContent": "string",
+            "remarkTime": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

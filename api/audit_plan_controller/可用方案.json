@@ -1,0 +1,23 @@
+{
+    "name": "可用方案",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditPlanMap",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "category": "int32",
+            "str": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "提醒页面接口",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/overtimeUnRemind/getOvertimeRemind",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

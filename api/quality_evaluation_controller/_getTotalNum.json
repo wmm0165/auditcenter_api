@@ -1,0 +1,22 @@
+{
+    "name": "_getTotalNum",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/opt/getTotalNum",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "projectId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

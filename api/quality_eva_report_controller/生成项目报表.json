@@ -1,0 +1,23 @@
+{
+    "name": "生成项目报表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/excuteReport",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "projectId": "int64",
+            "source": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

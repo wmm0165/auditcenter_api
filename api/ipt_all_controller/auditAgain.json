@@ -1,0 +1,31 @@
+{
+    "name": "auditAgain",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/all/auditAgain",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditInfo": "string",
+            "auditStatus": "integer",
+            "docGroup": "string",
+            "engineId": "integer",
+            "eventNo": "string",
+            "groupNo": "string",
+            "herbMedicalIds": "array",
+            "medicalIds": "array",
+            "status": "integer",
+            "zoneId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

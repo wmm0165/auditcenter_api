@@ -1,0 +1,27 @@
+{
+    "name": "住院收藏状态",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/collect/iptCollectedList",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "collectPeopleId": "integer",
+            "engineId": "integer",
+            "groupNo": "string",
+            "herbMedicalIds": "array",
+            "medicalIds": "array",
+            "optRecipeId": "integer"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

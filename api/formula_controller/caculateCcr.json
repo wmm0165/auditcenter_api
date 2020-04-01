@@ -1,0 +1,24 @@
+{
+    "name": "caculateCcr",
+    "variables": {},
+    "request": {
+        "api": "/api/formula/ccr",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "ccrAge": "string",
+            "ccrSex": "string",
+            "ccrWeight": "string",
+            "ccrHeight": "string",
+            "scr": "string",
+            "bmi": "double",
+            "ccrBsa": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

@@ -1,0 +1,37 @@
+{
+    "name": "修改",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/authPharmacist/$id",
+        "method": "PUT",
+        "headers": {},
+        "json": {
+            "auditScope": "integer",
+            "createdTime": "string",
+            "diagnoses": "string",
+            "drugCategorys": "string",
+            "drugProperties": "string",
+            "icd10": "string",
+            "id": "integer",
+            "iptDeptList": "array",
+            "iptWardList": "array",
+            "modifiedTime": "string",
+            "optDeptList": "array",
+            "pharmacistId": "string",
+            "pharmacistName": "string",
+            "pharmacistRealname": "string",
+            "userId": "string",
+            "userName": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

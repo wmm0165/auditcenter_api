@@ -1,0 +1,22 @@
+{
+    "name": "获取规则图查看地链接地址",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/pwDrugMatch",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "messageId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

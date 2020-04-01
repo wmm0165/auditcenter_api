@@ -1,0 +1,19 @@
+{
+    "name": "drugAuditRelated",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/drugAuditRelated/$optRecipeId/$zoneId/$productId",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "审方模式：1自动分配2药师自领",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/sys/getAuditPattern",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

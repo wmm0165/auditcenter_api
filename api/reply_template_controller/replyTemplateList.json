@@ -1,0 +1,19 @@
+{
+    "name": "replyTemplateList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/replyTemplateList",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

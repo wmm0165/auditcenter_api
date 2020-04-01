@@ -1,0 +1,19 @@
+{
+    "name": "auditWorking",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditWorking",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

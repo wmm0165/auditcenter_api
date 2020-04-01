@@ -1,0 +1,22 @@
+{
+    "name": "getPreviousEngineId",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/ipt/getPreviousEngineId",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "engineId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

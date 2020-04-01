@@ -1,0 +1,15 @@
+{
+    "name": "handle",
+    "variables": {},
+    "request": {
+        "api": "/actuator/info",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

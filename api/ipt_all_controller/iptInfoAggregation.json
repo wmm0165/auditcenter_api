@@ -1,0 +1,24 @@
+{
+    "name": "iptInfoAggregation",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/ipt/all/iptInfoAggregation",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "id": "int64",
+            "startDate": "int64",
+            "period": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "object",
+        "message": "string"
+    }
+}

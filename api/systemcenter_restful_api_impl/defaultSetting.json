@@ -1,0 +1,31 @@
+{
+    "name": "defaultSetting",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/systemcenter/default/setting",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "settingCode": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "id": "integer",
+        "isUse": "integer",
+        "remark": "string",
+        "settingCode": "string",
+        "settingName": "string",
+        "systemCode": "string",
+        "systemName": "string",
+        "typeData": "string",
+        "value": "string",
+        "valueType": "string",
+        "zoneId": "array",
+        "zoneName": "array"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "查询",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/remark/queryOptRemarkList",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "auditDocId": "string",
+            "engineId": "integer",
+            "groupNo": "string",
+            "herbMedicalIds": "array",
+            "medicalIds": "array",
+            "recipeId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

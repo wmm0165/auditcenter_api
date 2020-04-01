@@ -1,0 +1,22 @@
+{
+    "name": "_opt_nextId",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/opt/nextId",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "optRecipeId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

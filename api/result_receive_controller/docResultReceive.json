@@ -1,0 +1,28 @@
+{
+    "name": "docResultReceive",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/docResultReceive",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "base": null,
+            "feedBack": null,
+            "kfDocId": "string",
+            "operationDocId": "string",
+            "operationDocName": "string",
+            "optFeedBack": null,
+            "password": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

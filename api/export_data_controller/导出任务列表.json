@@ -1,0 +1,25 @@
+{
+    "name": "导出任务列表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/exportList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "str": "string",
+            "exportType": "int32",
+            "page": "int32",
+            "pageSize": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

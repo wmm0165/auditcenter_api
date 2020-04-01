@@ -1,0 +1,15 @@
+{
+    "name": "offerOptResults",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditOptResult",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

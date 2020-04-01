@@ -1,0 +1,19 @@
+{
+    "name": "auditCenter",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditcenter",
+        "method": "POST",
+        "headers": {},
+        "params": {
+            "charset": "string",
+            "validateXml": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

@@ -1,0 +1,19 @@
+{
+    "name": "optOperationList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/all/optRecipeOperationList/$optRecipeId",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

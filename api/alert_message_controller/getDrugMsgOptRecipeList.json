@@ -1,0 +1,43 @@
+{
+    "name": "getDrugMsgOptRecipeList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/opt/all/msgOptRecipeList",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "alertStatus": "integer",
+            "analysisResultType": "string",
+            "analysisResultTypeValue": "string",
+            "analysisType": "string",
+            "applyStatus": "integer",
+            "auditObject": "integer",
+            "currentPage": "integer",
+            "deptId": "array",
+            "doctorId": "string",
+            "doctorName": "string",
+            "drugId": "string",
+            "endTime": "integer",
+            "messageId": "string",
+            "pageSize": "integer",
+            "severity": "integer",
+            "source": "string",
+            "start": "integer",
+            "startTime": "integer",
+            "type": "string",
+            "wardId": "array",
+            "zoneId": "array",
+            "zoneIdWard": "array"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

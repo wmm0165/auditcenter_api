@@ -1,0 +1,15 @@
+{
+    "name": "medicalAll",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/systemcenter/medical/all",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

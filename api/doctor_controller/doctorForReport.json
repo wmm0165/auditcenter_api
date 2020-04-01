@@ -1,0 +1,22 @@
+{
+    "name": "doctorForReport",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/doctorForReport",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "keyword": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

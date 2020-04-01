@@ -1,0 +1,19 @@
+{
+    "name": "获取统登录页面",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/unionLoginUrl",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "string",
+        "message": "string"
+    }
+}

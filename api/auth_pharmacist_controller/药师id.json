@@ -1,0 +1,22 @@
+{
+    "name": "药师id",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/checkAuthPharmacistExists",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "pharmacistId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

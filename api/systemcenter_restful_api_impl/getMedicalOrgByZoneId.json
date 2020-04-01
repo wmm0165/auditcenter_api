@@ -1,0 +1,34 @@
+{
+    "name": "getMedicalOrgByZoneId",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/systemcenter/medical/id",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "zoneId": "int64"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "city": "string",
+        "county": "string",
+        "hospitalCode": "string",
+        "isActive": "integer",
+        "licenseCode": "string",
+        "operationTime": "string",
+        "orgCategory": "integer",
+        "orgLevel": "string",
+        "orgNature": "integer",
+        "orgRegionCode": "string",
+        "orgState": "integer",
+        "orgType": "integer",
+        "province": "string",
+        "zoneId": "integer",
+        "zoneName": "string"
+    }
+}

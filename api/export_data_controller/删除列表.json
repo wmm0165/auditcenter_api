@@ -1,0 +1,19 @@
+{
+    "name": "删除列表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/deleteExportList",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "integer",
+        "message": "string"
+    }
+}

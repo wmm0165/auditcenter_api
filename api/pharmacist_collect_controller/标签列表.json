@@ -1,0 +1,22 @@
+{
+    "name": "标签列表",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/collect/getTagList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "userId": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "array",
+        "message": "string"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "name": "medicationinfo",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/medicationinfo",
+        "method": "POST",
+        "headers": {},
+        "json": {
+            "analysisResultType": "string",
+            "analysisResultTypeValue": "string",
+            "analysisType": "string",
+            "auditObject": "integer",
+            "currentPage": "integer",
+            "deptId": "array",
+            "doctorName": "string",
+            "drugCodeList": "array",
+            "drugIds": "string",
+            "endDate": "integer",
+            "endDateStr": "string",
+            "exportServiceName": "string",
+            "exportType": "integer",
+            "fileName": "string",
+            "hosDocIdList": "array",
+            "messageStatus": "integer",
+            "operator": "string",
+            "orderDirection": "string",
+            "orderField": "string",
+            "pageSize": "integer",
+            "productId": "string",
+            "productIdList": "array",
+            "productName": "string",
+            "query": "object",
+            "recipeSource": "integer",
+            "recipeSourceStr": "string",
+            "severity": "integer",
+            "severitySymbol": "string",
+            "startDate": "integer",
+            "startDateStr": "string",
+            "taskId": "string",
+            "userAppliedStatus": "integer",
+            "userId": "integer",
+            "validated": "boolean",
+            "wardId": "array",
+            "zoneId": "array",
+            "zoneIdWard": "array",
+            "zonesAndDeptsQuery": null,
+            "zonesAndWardsQuery": null
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "name": "defaultChildSetting",
+    "variables": {},
+    "request": {
+        "api": "/api/cache/systemcenter/default/child",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "settingCode": "string",
+            "childKey": "string",
+            "childSettingCode": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "childKey": "string",
+        "childKeyName": "string",
+        "childSettingCode": "string",
+        "childSettingName": "string",
+        "id": "integer",
+        "settingCode": "string",
+        "value": "string"
+    }
+}

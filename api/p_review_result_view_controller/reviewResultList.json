@@ -1,0 +1,28 @@
+{
+    "name": "reviewResultList",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/analysis/opt/reviewResultList",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "checkPeopleId": "multi",
+            "startTime": "int64",
+            "endTime": "int64",
+            "currentPage": "int32",
+            "pageSize": "int32",
+            "checkResult": "int32",
+            "source": "int32"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}

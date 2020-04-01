@@ -1,0 +1,22 @@
+{
+    "name": "方案名称",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/checkAuditPlanName",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "name": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": "boolean",
+        "message": "string"
+    }
+}

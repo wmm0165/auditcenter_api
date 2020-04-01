@@ -1,0 +1,19 @@
+{
+    "name": "caculateBsa",
+    "variables": {},
+    "request": {
+        "api": "/api/formula/bsa",
+        "method": "GET",
+        "headers": {},
+        "params": {
+            "bsaWeight": "string",
+            "bsaHeight": "string"
+        }
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {}
+}

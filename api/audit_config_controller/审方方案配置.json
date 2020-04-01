@@ -1,0 +1,19 @@
+{
+    "name": "审方方案配置",
+    "variables": {},
+    "request": {
+        "api": "/api/v1/auditConfig",
+        "method": "GET",
+        "headers": {}
+    },
+    "validate": [
+        {
+            "eq": []
+        }
+    ],
+    "output": {
+        "code": "string",
+        "data": null,
+        "message": "string"
+    }
+}
